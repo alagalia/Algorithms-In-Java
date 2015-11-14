@@ -2,7 +2,7 @@ public class DrawWithRecursive {
 
     public static void printFigure(String str, int times) {
         if (times==0){
-             return;
+            return;
         }
         System.out.println(new String(new char[times]).replace("\0", str));
         printFigure(str, times - 1);
