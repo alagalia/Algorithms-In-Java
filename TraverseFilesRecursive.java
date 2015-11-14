@@ -4,7 +4,7 @@ import java.util.HashSet;
 public class TraverseFilesRecursive {
     public static void main(String[] args) {
         String path = "D:\\SOFTUNI\\Agorithms\\out";
-        traverse(path,0);
+        traverse(path, 0);
     }
 
     private static void traverse(String path, int indent) {
