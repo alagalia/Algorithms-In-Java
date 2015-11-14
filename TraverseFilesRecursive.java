@@ -1,8 +1,4 @@
 import java.io.File;
-
-/**
- * Created by Dell on 14.11.2015 ã..
- */
     public class TraverseFilesRecursive {
     public static void main(String[] args) {
         String path = "D:\\SOFTUNI";
